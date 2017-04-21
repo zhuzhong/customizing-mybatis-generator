@@ -27,7 +27,7 @@ public class MysqlGeneratorUtil {
             System.out.println("start generator ...");
             List<String> warnings = new ArrayList<String>();
             boolean overwrite = true;
-            File configFile = new File("F:/yidongpan_bak/github/customizing-mybatis-generator/src/main/resources/mysqlibatisgeneratorConfig.xml");
+            File configFile = new File("E:\\github\\customizing-mybatis-generator\\src\\main\\resources\\mysqlibatisgeneratorConfig.xml");
             ConfigurationParser cp = new ConfigurationParser(warnings);
             Configuration config = cp.parseConfiguration(configFile);
             DefaultShellCallback callback = new DefaultShellCallback(overwrite);
